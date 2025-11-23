@@ -39,10 +39,6 @@ spw = max((neg / max(1, pos)), 1.0)  # for boosting libs
 - Validation: hold-out (80/20) and cross-validation where applicable.
 - Threshold tuning recommended to balance precision/recall to business cost.
 
-## Key Findings (from notebooks)
-- Higher monthly/total charges and shorter tenure correlate with churn.
-- Certain subscription/payment/device flags and content preferences influence churn risk.
-- Ensemble boosters (XGBoost/LightGBM) and the tuned ANN typically outperform linear baselines; check notebooks for exact scores.
 
 ## How to Run
 1) Install deps: `pandas`, `numpy`, `scikit-learn`, `xgboost`, `lightgbm`, `tensorflow`, `matplotlib`, `seaborn`.
