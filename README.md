@@ -31,7 +31,7 @@ spw = max((neg / max(1, pos)), 1.0)  # for boosting libs
 - HistGradientBoosting
 - XGBoost (hist, tuned depth/learning rate, `scale_pos_weight`)
 - LightGBM (tuned estimators/learning rate, `scale_pos_weight`)
-- ANN (in `ann.ipynb`)
+- ANN unweighted and weighted (in `ann.ipynb`)
 
 
 ## Evaluation
